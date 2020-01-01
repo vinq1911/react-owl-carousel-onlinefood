@@ -108,9 +108,7 @@ class OwlCarousel extends Component {
         this.destory = this.destory.bind(this);
         this.play = this.play.bind(this);
         this.stop = this.stop.bind(this);
-    }
 
-    componentWillMount() {
         this._filterProps(this.props);
     }
 
@@ -119,10 +117,7 @@ class OwlCarousel extends Component {
         this.owlCarousel.owlCarousel(this.options);
     }
 
-    componentWillReceiveProps(nextProps) {
-        this._filterProps(nextProps);
-        this.destory();
-	}
+  
 
     componentDidUpdate() {
         this.owlCarousel = $(this.inst);
