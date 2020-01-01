@@ -39,7 +39,7 @@
     "copyfiles": "^1.2.0",
     "cross-env": "^3.1.4",
     "css-loader": "^0.28.1",
-    "eslint": "^3.19.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^7.0.0",
     "file-loader": "^0.11.1",
